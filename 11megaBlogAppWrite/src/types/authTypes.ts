@@ -2,7 +2,7 @@ type userLoginCredentialsType = {
   email: string;
   password: string;
 };
-
+// Types
 type userAccountCreationType = {
   name: string;
 } & userLoginCredentialsType;
